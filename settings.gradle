@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "MeetAssign3"
-include ':app'
+include ':MeetAssign3'
