@@ -3,4 +3,7 @@
     <string name="MeetMenuItem1">Camera</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MeetFragmentTextView">Meet Patel N01460090</string>
+    <string name="Pass">Enter Password</string>
+    <string name="PasswordError">Enter atleast 4 letters</string>
 </resources>
