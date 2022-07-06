@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MeetAssign3</string>
+    <string name="MeetMenuItem1">Camera</string>
 </resources>
