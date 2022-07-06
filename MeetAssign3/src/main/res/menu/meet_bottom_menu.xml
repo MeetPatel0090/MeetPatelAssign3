@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Item"
+        android:icon="@drawable/btm_icon1"
+        android:id="@+id/MeetBottomMenuItem1"
+        />
+    <item android:title="Item"
+        android:icon="@drawable/btm_icon2"
+        android:id="@+id/MeetBottomMenuItem2"/>
+    <item android:title="Item"
+        android:icon="@drawable/btm_icon3"
+        android:id="@+id/MeetBottomMenuItem3"/>
+</menu>

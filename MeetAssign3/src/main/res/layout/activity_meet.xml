@@ -7,6 +7,19 @@
     tools:context=".MeetActivity">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/MeetToolBar"
+        android:background="#EEEEEE"
+        app:titleTextColor="#06113C"
+        app:title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/MeetFrameLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
     <FrameLayout
         android:id="@+id/MeetFrameLayout"
         android:layout_width="0dp"
@@ -14,16 +27,17 @@
         app:layout_constraintBottom_toTopOf="@+id/MeetBottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/MeetToolBar" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/MeetBottomNavigationView"
-        android:background="#004D40"
+        android:background="#EEEEEE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MeetFrameLayout"/>
+        app:layout_constraintTop_toBottomOf="@+id/MeetFrameLayout"
+        app:menu="@menu/meet_bottom_menu"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

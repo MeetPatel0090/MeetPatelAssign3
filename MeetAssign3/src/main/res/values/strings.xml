@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">MeetAssign3</string>
+    <string name="app_name">MeetPatelN01460090</string>
     <string name="MeetMenuItem1">Camera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
