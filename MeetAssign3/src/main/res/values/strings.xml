@@ -5,5 +5,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="MeetFragmentTextView">Meet Patel N01460090</string>
     <string name="Pass">Enter Password</string>
-    <string name="PasswordError">Enter atleast 4 letters</string>
+    <string name="PasswordError">Invalid Input</string>
+    <string name="btn_text">Button</string>
+    <string name="colour_green">Colour: Green</string>
+    <string name="colour_red">Colour: Red</string>
+    <string name="colour_blue">Colour: Blue</string>
+    <string name="width_6f">Width: 6f</string>
+    <string name="width_8f">Width: 8f</string>
+    <string name="width_10f">Width: 10f</string>
 </resources>

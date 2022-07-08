@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PatelFragment"
     android:background="#DDDDDD">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <meet.patel.n01460090.a3.CanvasView
+        android:id="@+id/MeetCanvas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="patel-fragment"
-        android:layout_gravity="center"
-        android:textSize="26dp" />
+        android:layout_height="667dp"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/MeetImageButton"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/clear" />
+
 
 </FrameLayout>

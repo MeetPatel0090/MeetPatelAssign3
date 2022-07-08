@@ -36,8 +36,10 @@
         android:layout_height="65dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:backgroundTint="@color/white"
-        android:text="Button" />
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="@string/btn_text" />
 
 
 </FrameLayout>
