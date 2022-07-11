@@ -31,7 +31,7 @@
         android:inputType="textPassword"
         android:maxLength="6"
         android:textColorHint="#757575"
-        android:textSize="22dp" />
+        android:textSize="22sp" />
 
     <Button
         android:id="@+id/MeetButton"

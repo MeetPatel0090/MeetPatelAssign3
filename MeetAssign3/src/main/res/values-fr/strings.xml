@@ -1,0 +1,33 @@
+<!-- Meet Patel N01460090 Section:- RNB -->
+<resources>
+    <string name="app_name">MeetPatelN01460090</string>
+    <string name="MeetMenuItem1">Caméra</string>
+    <string name="MeetFragmentTextView">Meet Patel N01460090</string>
+    <string name="Pass">Entrer le mot de passe</string>
+    <string name="PasswordError">entrée invalide</string>
+    <string name="btn_text">Bouton</string>
+    <string name="colour_green">Couleur: Vert</string>
+    <string name="colour_red">Couleur: Rouge</string>
+    <string name="colour_pink">Couleur: Rose</string>
+    <string name="width_14f">Largeur: 14f</string>
+    <string name="width_18f">Largeur: 18f</string>
+    <string name="width_22f">Largeur: 22f</string>
+    <string name="firstName_thirdFrag">Meet</string>
+    <string name="lastName_thirdFrag">Patel</string>
+    <string name="Passed_String">PassedString</string>
+    <string name="PassDataMessage">Données stockées et transmises au troisième fragment</string>
+    <string name="Call_Btn_Text">Passer un coup de téléphone</string>
+    <string name="PermissionDenied">Permission refusée</string>
+    <string name="ExitConfirmation">Voulez-vous sortir?</string>
+    <string name="ExitYes">Oui</string>
+    <string name="ExitNo">Non</string>
+    <string name="ExitAlertTitle">Meet Patel N01460090</string>
+    <string name="CallNumber">tél:1234567899</string>
+    <string name="Content_Desc">Image</string>
+    <string name="PinkColorMenu">#FFC0CB</string>
+    <string name="GreenColorMenu">Vert</string>
+    <string name="RedColorMenu">Rouge</string>
+    <string name="Bottom_Menu_Item1">MeetTab</string>
+    <string name="Bottom_Menu_Item2">PatelTab</string>
+    <string name="Bottom_Menu_Item3">N01460090Tab</string>
+</resources>
