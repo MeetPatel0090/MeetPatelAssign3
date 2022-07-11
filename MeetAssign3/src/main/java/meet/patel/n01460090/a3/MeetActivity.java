@@ -1,3 +1,5 @@
+// Meet Patel N01460090 Section:- RNB
+
 package meet.patel.n01460090.a3;
 
 import androidx.annotation.NonNull;
@@ -20,9 +22,9 @@ public class MeetActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
 
-    MeetFragment meetFragment = new MeetFragment();
-    PatelFragment patelFragment = new PatelFragment();
-    N01460090Fragment n01460090Fragment = new N01460090Fragment();
+    MeetTab meetFragment = new MeetTab();
+    PatelTab patelFragment = new PatelTab();
+    N01460090Tab n01460090Fragment = new N01460090Tab();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

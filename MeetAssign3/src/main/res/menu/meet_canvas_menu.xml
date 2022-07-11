@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Meet Patel N01460090 Section:- RNB -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/colour_green"
+        android:id="@+id/MeetCanvasColourGreen"/>
+    <item
+        android:title="@string/colour_red"
+        android:id="@+id/MeetCanvasColourRed"/>
+    <item
+        android:title="@string/colour_pink"
+        android:id="@+id/MeetCanvasColourPink"/>
+    <item
+        android:title="@string/width_14f"
+        android:id="@+id/MeetCanvasWidth14"/>
+    <item
+        android:title="@string/width_18f"
+        android:id="@+id/MeetCanvasWidth18"/>
+    <item
+        android:title="@string/width_22f"
+        android:id="@+id/MeetCanvasWidth22"/>
+</menu>

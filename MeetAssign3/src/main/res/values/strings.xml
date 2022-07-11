@@ -9,10 +9,10 @@
     <string name="btn_text">Button</string>
     <string name="colour_green">Colour: Green</string>
     <string name="colour_red">Colour: Red</string>
-    <string name="colour_blue">Colour: Blue</string>
-    <string name="width_6f">Width: 6f</string>
-    <string name="width_8f">Width: 8f</string>
-    <string name="width_10f">Width: 10f</string>
+    <string name="colour_pink">Colour: Pink</string>
+    <string name="width_14f">Width: 14f</string>
+    <string name="width_18f">Width: 18f</string>
+    <string name="width_22f">Width: 22f</string>
     <string name="firstName_thirdFrag">Meet</string>
     <string name="lastName_thirdFrag">Patel</string>
     <string name="Passed_String">PassedString</string>
@@ -23,4 +23,9 @@
     <string name="ExitYes">Yes</string>
     <string name="ExitNo">No</string>
     <string name="ExitAlertTitle">Meet Patel N01460090</string>
+    <string name="CallNumber">tel:1234567899</string>
+    <string name="Content_Desc">Image</string>
+    <string name="PinkColorMenu">#FFC0CB</string>
+    <string name="GreenColorMenu">Green</string>
+    <string name="RedColorMenu">Red</string>
 </resources>

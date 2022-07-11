@@ -1,6 +1,7 @@
+// Meet Patel N01460090 Section:- RNB
+
 package meet.patel.n01460090.a3;
 
-import android.graphics.Canvas;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -16,15 +17,18 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 
 
-public class PatelFragment extends Fragment {
+public class PatelTab extends Fragment {
 
     private CanvasView canvasView;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+    {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_patel, container, false);
+        View view = inflater.inflate(R.layout.tab_patel, container, false);
+
+        // The code for the Bitmap Image and Thumbnail is in CanvasView.java File
+
         canvasView = view.findViewById(R.id.MeetCanvas);
 
         ImageButton imgBtn = view.findViewById(R.id.MeetImageButton);
@@ -36,12 +40,12 @@ public class PatelFragment extends Fragment {
             }
         });
 
-
         return view;
     }
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState)
+    {
         setHasOptionsMenu(true);
         super.onCreate(savedInstanceState);
     }
@@ -49,7 +53,7 @@ public class PatelFragment extends Fragment {
 
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-        inflater.inflate(R.menu.canvas_menu, menu);
+        inflater.inflate(R.menu.meet_canvas_menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
     }
 
@@ -59,28 +63,28 @@ public class PatelFragment extends Fragment {
         // Handle item selection
         switch (menuitem.getItemId())
         {
-            case R.id.MeetCanvasWidth6:
-                canvasView.setStrokeWidth(6f);
+            case R.id.MeetCanvasWidth14:
+                canvasView.setStrokeWidth(14f);
                 break;
 
-            case R.id.MeetCanvasWidth8:
-                canvasView.setStrokeWidth(8f);
+            case R.id.MeetCanvasWidth18:
+                canvasView.setStrokeWidth(18f);
                 break;
 
-            case R.id.MeetCanvasWidth10:
-                canvasView.setStrokeWidth(10f);
+            case R.id.MeetCanvasWidth22:
+                canvasView.setStrokeWidth(22f);
                 break;
 
-            case R.id.MeetCanvasColourBlue:
-                canvasView.setStrokeColor("Blue");
+            case R.id.MeetCanvasColourPink:
+                canvasView.setStrokeColor(getString(R.string.PinkColorMenu));
                 break;
 
             case R.id.MeetCanvasColourGreen:
-                canvasView.setStrokeColor("Green");
+                canvasView.setStrokeColor(getString(R.string.GreenColorMenu));
                 break;
 
             case R.id.MeetCanvasColourRed:
-                canvasView.setStrokeColor("Red");
+                canvasView.setStrokeColor(getString(R.string.RedColorMenu));
                 break;
 
             default:
@@ -89,6 +93,4 @@ public class PatelFragment extends Fragment {
         return true;
 
     }
-
-
 }

@@ -1,3 +1,5 @@
+// Meet Patel N01460090 Section:- RNB
+
 package meet.patel.n01460090.a3;
 
 import static android.Manifest.*;
@@ -21,7 +23,7 @@ import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-public class N01460090Fragment extends Fragment {
+public class N01460090Tab extends Fragment {
 
 
 
@@ -29,7 +31,7 @@ public class N01460090Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_n01460090, container, false);
+        View view = inflater.inflate(R.layout.tab_n01460090, container, false);
 
         TextView textView = view.findViewById(R.id.MeetTextViewFirstNameThirdFrag);
         textView.setPaintFlags(textView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
@@ -67,7 +69,7 @@ public class N01460090Fragment extends Fragment {
 
         else
         {
-            Uri uri = Uri.parse("tel:1234567899");
+            Uri uri = Uri.parse(getString(R.string.CallNumber));
             Intent intent = new Intent(Intent.ACTION_CALL,uri);
             startActivity(intent);
         }

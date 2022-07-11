@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Meet Patel N01460090 Section:- RNB -->
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PatelFragment"
+    tools:context=".PatelTab"
     android:background="#DDDDDD">
 
     <meet.patel.n01460090.a3.CanvasView
@@ -19,7 +20,14 @@
         android:layout_height="62dp"
         android:layout_gravity="bottom|center"
         android:scaleType="centerCrop"
-        android:src="@drawable/clear" />
+        android:src="@drawable/clear"
+        android:contentDescription="@string/Content_Desc" />
+
+    <RelativeLayout
+        android:id="@+id/MeetRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
 
 
 </FrameLayout>

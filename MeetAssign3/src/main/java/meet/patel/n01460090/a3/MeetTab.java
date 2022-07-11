@@ -1,6 +1,7 @@
+// Meet Patel N01460090 Section:- RNB
+
 package meet.patel.n01460090.a3;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,13 +14,13 @@ import android.widget.EditText;
 
 import com.google.android.material.snackbar.Snackbar;
 
-public class MeetFragment extends Fragment {
+public class MeetTab extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_meet, container, false);
+        View view = inflater.inflate(R.layout.tab_meet, container, false);
 
 
 

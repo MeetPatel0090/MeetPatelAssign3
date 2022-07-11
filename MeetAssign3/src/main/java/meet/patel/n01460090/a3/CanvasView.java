@@ -1,9 +1,13 @@
+// Meet Patel N01460090 Section:- RNB
+
 package meet.patel.n01460090.a3;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.util.AttributeSet;
@@ -32,10 +36,10 @@ public class CanvasView extends View {
         // and we set a new Paint with the desired attributes
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
-        mPaint.setColor(Color.BLACK);
+        mPaint.setColor(Color.BLUE);
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
-        mPaint.setStrokeWidth(4f);
+        mPaint.setStrokeWidth(10f);
     }
 
     // override onSizeChanged
@@ -52,6 +56,32 @@ public class CanvasView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
+        // Code for the Bitmap Picture and Thumbnail
+        Bitmap CodePicture = BitmapFactory.decodeResource(getResources(), R.drawable.imgthumbnail);
+
+        Bitmap CodePic= Bitmap.createScaledBitmap(CodePicture, 1000, 1400, false);
+        canvas.drawBitmap(CodePic, 60, 75, null);
+
+        Bitmap CodePic2= Bitmap.createScaledBitmap(CodePic, 50, 75, false);
+
+        Matrix maxTopLeft = new Matrix();
+        maxTopLeft.preRotate(60);
+
+        Matrix maxTopRight = new Matrix();
+        maxTopRight.preRotate(-30);
+        maxTopRight.preScale(-1, 1);
+
+        Bitmap CodePicTopLeft = Bitmap.createBitmap(CodePic2, 0, 0, CodePic2.getWidth(), CodePic2.getHeight(), maxTopLeft, false);
+
+        Bitmap CodePicTopRight = Bitmap.createBitmap(CodePic2, 0, 0, CodePic2.getWidth(), CodePic2.getHeight(), maxTopRight, false);
+
+
+        CodePic2.recycle();
+        CodePic.recycle();
+
+        canvas.drawBitmap(CodePicTopLeft, 30, 30, null);
+        canvas.drawBitmap(CodePicTopRight, 1025, 30, null);
 
 
         // draw the mPath with the mPaint on the canvas when onDraw
