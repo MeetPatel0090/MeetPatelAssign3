@@ -12,7 +12,7 @@
         android:id="@+id/MeetCanvas"
         android:layout_width="match_parent"
         android:layout_height="667dp"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"/>
 
     <ImageButton
         android:id="@+id/MeetImageButton"
@@ -23,11 +23,17 @@
         android:src="@drawable/clear"
         android:contentDescription="@string/Content_Desc" />
 
-    <RelativeLayout
-        android:id="@+id/MeetRelativeLayout"
+    <TextView
+        android:id="@+id/MeetTextViewFragName2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </RelativeLayout>
-
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100sp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/PatelFragmentName"
+        android:textAlignment="center"
+        android:textColor="#127C05"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
 </FrameLayout>

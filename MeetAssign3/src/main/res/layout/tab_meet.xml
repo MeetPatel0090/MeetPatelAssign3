@@ -45,5 +45,18 @@
         android:textSize="20sp"
         android:text="@string/btn_text" />
 
+    <TextView
+        android:id="@+id/MeetTextViewFragName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/MeetFragmentName"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+
 
 </FrameLayout>

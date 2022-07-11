@@ -30,4 +30,7 @@
     <string name="Bottom_Menu_Item1">MeetTab</string>
     <string name="Bottom_Menu_Item2">PatelTab</string>
     <string name="Bottom_Menu_Item3">N01460090Tab</string>
+    <string name="MeetFragmentName">Meet Fragment</string>
+    <string name="PatelFragmentName">Patel Fragment</string>
+    <string name="N01460090FragmentName">N01460090 Fragment</string>
 </resources>

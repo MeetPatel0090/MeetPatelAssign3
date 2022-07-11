@@ -60,16 +60,16 @@ public class CanvasView extends View {
         // Code for the Bitmap Picture and Thumbnail
         Bitmap CodePicture = BitmapFactory.decodeResource(getResources(), R.drawable.imgthumbnail);
 
-        Bitmap CodePic= Bitmap.createScaledBitmap(CodePicture, 1000, 1400, false);
-        canvas.drawBitmap(CodePic, 60, 75, null);
+        Bitmap CodePic= Bitmap.createScaledBitmap(CodePicture, 700, 1000, false);
+        canvas.drawBitmap(CodePic, 350, 200, null);
 
-        Bitmap CodePic2= Bitmap.createScaledBitmap(CodePic, 50, 75, false);
+        Bitmap CodePic2= Bitmap.createScaledBitmap(CodePic, 100, 175, false);
 
         Matrix maxTopLeft = new Matrix();
-        maxTopLeft.preRotate(60);
+        maxTopLeft.preRotate(300);
 
         Matrix maxTopRight = new Matrix();
-        maxTopRight.preRotate(-30);
+        maxTopRight.preRotate(100);
         maxTopRight.preScale(-1, 1);
 
         Bitmap CodePicTopLeft = Bitmap.createBitmap(CodePic2, 0, 0, CodePic2.getWidth(), CodePic2.getHeight(), maxTopLeft, false);
@@ -80,8 +80,8 @@ public class CanvasView extends View {
         CodePic2.recycle();
         CodePic.recycle();
 
-        canvas.drawBitmap(CodePicTopLeft, 30, 30, null);
-        canvas.drawBitmap(CodePicTopRight, 1025, 30, null);
+        canvas.drawBitmap(CodePicTopLeft, 270, 140, null);
+        canvas.drawBitmap(CodePicTopRight, 900, 140, null);
 
 
         // draw the mPath with the mPaint on the canvas when onDraw
