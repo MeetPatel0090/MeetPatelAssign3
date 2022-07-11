@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".N01460090Tab"
-    android:background="#DDDDDD">
+    android:background="#FFF8CB">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -41,6 +41,7 @@
         android:layout_gravity="top|center"
         android:layout_marginTop="100sp"
         android:textColor="@color/black"
+        android:textStyle="italic"
         android:textSize="25sp" />
 
     <Button

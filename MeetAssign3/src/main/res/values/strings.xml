@@ -28,4 +28,7 @@
     <string name="PinkColorMenu">#FFC0CB</string>
     <string name="GreenColorMenu">Green</string>
     <string name="RedColorMenu">Red</string>
+    <string name="Bottom_Menu_Item1">MeetTab</string>
+    <string name="Bottom_Menu_Item2">PatelTab</string>
+    <string name="Bottom_Menu_Item3">N01460090Tab</string>
 </resources>

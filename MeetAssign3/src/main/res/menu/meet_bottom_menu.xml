@@ -3,14 +3,17 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Item"
+    <item
+        android:title="@string/Bottom_Menu_Item1"
         android:icon="@drawable/btm_icon1"
         android:id="@+id/MeetBottomMenuItem1"
         />
-    <item android:title="Item"
+    <item
+        android:title="@string/Bottom_Menu_Item2"
         android:icon="@drawable/btm_icon2"
         android:id="@+id/MeetBottomMenuItem2"/>
-    <item android:title="Item"
+    <item
+        android:title="@string/Bottom_Menu_Item3"
         android:icon="@drawable/btm_icon3"
         android:id="@+id/MeetBottomMenuItem3"/>
 </menu>

@@ -69,6 +69,7 @@ public class MeetActivity extends AppCompatActivity {
         builder.setCancelable(false);
         builder.setMessage(R.string.ExitConfirmation);
         builder.setTitle(R.string.ExitAlertTitle);
+        builder.setIcon(R.drawable.dialougeimg);
         builder.setPositiveButton(R.string.ExitYes, new DialogInterface.OnClickListener()
         {
             @Override

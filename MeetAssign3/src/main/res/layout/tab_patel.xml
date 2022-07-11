@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PatelTab"
-    android:background="#DDDDDD">
+    android:background="#FFFFFF">
 
     <meet.patel.n01460090.a3.CanvasView
         android:id="@+id/MeetCanvas"

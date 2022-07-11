@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MeetTab"
-    android:background="#DDDDDD">
+    android:background="#DFFBFF">
 
     <TextView
         android:id="@+id/MeetTextView"
@@ -16,7 +16,8 @@
         android:text="@string/MeetFragmentTextView"
         android:textAlignment="center"
         android:textColor="#FB0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/MeetPassword"
@@ -40,6 +41,7 @@
         android:layout_marginTop="100dp"
         android:backgroundTint="@color/black"
         android:textColor="@color/white"
+        android:textStyle="italic"
         android:textSize="20sp"
         android:text="@string/btn_text" />
 

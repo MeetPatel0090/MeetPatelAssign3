@@ -48,6 +48,8 @@ public class MeetTab extends Fragment {
                     result.putString(getString(R.string.Passed_String),pwd);
                     getParentFragmentManager().setFragmentResult(getString(R.string.Passed_String),result);
 
+                    password.setText("");
+
                 }
             }
         });
