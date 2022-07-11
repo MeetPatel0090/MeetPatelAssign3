@@ -18,7 +18,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 
-public class MeetActivity extends AppCompatActivity {
+public class MeetActivity extends AppCompatActivity
+{
 
     BottomNavigationView bottomNavigationView;
 
@@ -27,7 +28,8 @@ public class MeetActivity extends AppCompatActivity {
     N01460090Tab n01460090Fragment = new N01460090Tab();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meet);
         Toolbar toolbar = findViewById(R.id.MeetToolBar);

@@ -14,7 +14,8 @@ import android.widget.EditText;
 
 import com.google.android.material.snackbar.Snackbar;
 
-public class MeetTab extends Fragment {
+public class MeetTab extends Fragment
+{
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -23,10 +23,8 @@ import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-public class N01460090Tab extends Fragment {
-
-
-
+public class N01460090Tab extends Fragment
+{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
