@@ -13,4 +13,14 @@
     <string name="width_6f">Width: 6f</string>
     <string name="width_8f">Width: 8f</string>
     <string name="width_10f">Width: 10f</string>
+    <string name="firstName_thirdFrag">Meet</string>
+    <string name="lastName_thirdFrag">Patel</string>
+    <string name="Passed_String">PassedString</string>
+    <string name="PassDataMessage">Data Stored and Passed to Third Fragment</string>
+    <string name="Call_Btn_Text">Make a Call</string>
+    <string name="PermissionDenied">Permission Denied</string>
+    <string name="ExitConfirmation">Do you want to Exit?</string>
+    <string name="ExitYes">Yes</string>
+    <string name="ExitNo">No</string>
+    <string name="ExitAlertTitle">Meet Patel N01460090</string>
 </resources>

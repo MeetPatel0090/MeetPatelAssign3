@@ -1,5 +1,6 @@
 package meet.patel.n01460090.a3;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -37,7 +38,15 @@ public class MeetFragment extends Fragment {
 
                 else
                 {
+                    Snackbar snackbar = Snackbar.make(v, getString(R.string.PassDataMessage), Snackbar.LENGTH_SHORT);
+                    snackbar.show();
+
                     String pwd = password.getText().toString();
+
+                    Bundle result = new Bundle();
+                    result.putString(getString(R.string.Passed_String),pwd);
+                    getParentFragmentManager().setFragmentResult(getString(R.string.Passed_String),result);
+
                 }
             }
         });

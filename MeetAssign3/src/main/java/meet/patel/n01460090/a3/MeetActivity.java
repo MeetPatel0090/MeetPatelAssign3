@@ -4,8 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -59,6 +60,35 @@ public class MeetActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(false);
+        builder.setMessage(R.string.ExitConfirmation);
+        builder.setTitle(R.string.ExitAlertTitle);
+        builder.setPositiveButton(R.string.ExitYes, new DialogInterface.OnClickListener()
+        {
+            @Override
+            public void onClick(DialogInterface dialog, int which)
+            {
+                finish();
+            }
+        });
+        builder.setNegativeButton(R.string.ExitNo,new DialogInterface.OnClickListener()
+        {
+            @Override
+            public void onClick(DialogInterface dialog, int which)
+            {
+                //if user select "No", just cancel this dialog and continue with app
+                dialog.cancel();
+            }
+        });
+        AlertDialog alert=builder.create();
+        alert.show();
+    }
+
+
 
 
     @Override
@@ -73,17 +103,15 @@ public class MeetActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem menuitem)
     {
         // Handle item selection
-        switch (menuitem.getItemId())
+        if (menuitem.getItemId() == R.id.MeetMenuItem1)
         {
-            case R.id.MeetMenuItem1:
-                gotoCamera();
-                break;
-
-            default:
+            gotoCamera();
+        }
+        else
+        {
                 return super.onOptionsItemSelected(menuitem);
         }
         return true;
-
     }
 
 
